@@ -13,21 +13,10 @@ wd <- 'C:/proef/mangro_mud3'
 # setwd(wd)
 folders <- list.dirs("./data/raw", full.names=FALSE, recursive = FALSE)
 
+func <- source('src/functions.R')
+
 # If only want to test on 1 file:
 #folders <- Sys.glob("*LC08_L1GT_228056_20190309_20190325_01_T2")
-
-##################################### FUNCTIONS 
-## Function that calculates the index
-calc.index <- function(x, y) {
-  index <- (x - y) / (x + y)
-  return(index)
-}
-
-## Value replacement function for clouds
-cloud2NA <- function(x,y){
-  x[y != 0] <- NA
-  return(x)
-}
 
 #################### Calculations
 

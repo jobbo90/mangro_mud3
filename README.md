@@ -4,6 +4,8 @@ Version 0.1.0
 
 Project to read Landsat 8 satellite imagery and convert the spectral signal to
 ndvi values for the purpose of time series analysis.
+In a second step you could reclassify all index values [-1, 1] to a binary
+map indicating which pixels fall within a certain range.
 
 Requirements for running:
 A landsat folder (as downloaded from USGS) containing the spectral bands

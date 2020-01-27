@@ -2,7 +2,13 @@
 
 Version 0.1.0
 
-bla blab
+Project to read Landsat 8 satellite imagery and convert the spectral signal to
+ndvi values.
+
+Requires:
+functions.R 
+processing_landsat8_cleaned
+
 
 
 ## Project organization

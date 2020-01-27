@@ -8,9 +8,10 @@ In a second step you could reclassify all index values [-1, 1] to a binary
 map indicating which pixels fall within a certain range.
 
 Requirements for running:
-A landsat folder (as downloaded from USGS) containing the spectral bands
-functions.R 
-processing_landsat8_cleaned
+- A landsat folder (as downloaded from USGS) containing the spectral bands
+	NOT AVAILABLE a.t.m.
+- functions.R 
+- processing_landsat8_cleaned
 
 Requirements:
 Rstudio (version 3.6)

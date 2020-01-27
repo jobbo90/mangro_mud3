@@ -78,7 +78,7 @@ for(scene in folders){
 
   NDVI.reclass.cloudfree <- overlay(x=NDVI, y=fmask, fun = cloud2NA)
   writeRaster(NDVI.reclass.cloudfree, filename=paste0('./data/temp','/',year,'_', day, '_reclass_NDVI'), 
-              format='GTiff', datatype='flt8s', overwrite=TRUE)
+              format='GTiff', datatype='FLT4S', overwrite=TRUE)
 
   counter = counter + 1
 }
